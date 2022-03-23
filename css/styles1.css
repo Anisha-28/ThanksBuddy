@@ -1,0 +1,230 @@
+.donation{
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  font-size: 30px;
+ 
+}
+
+.intro{
+  height: 320px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  
+
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.btn1 {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.btn1:hover {
+  background: #ff9800;
+  color: white;
+}
+
+.food-waste{
+  height:600px;
+  width:100%;
+  text-align: center;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.food-waste1{
+  height:500px;
+  width:100%;
+  background-color: #ff9800;
+  text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  background-color: #ff9800;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Create three equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-left: 250px;
+  padding-top: 40px;
+  height: 250px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Create three equal columns that floats next to each other */
+.column3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+  height: 250px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column3 a {
+  display: block;
+  color: #000000;
+  padding: 15px;
+  text-decoration: none;
+
+}
+
+.social{
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  background-color: #ff9800;
+  font-size: 30px;
+
+}
+/*social media icon*/
+.fa {
+  
+  font-size: 30px;
+  width: 60px;
+  height:60px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.footer{
+  height:300px;
+  width: 100%;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+input[type=submit]:hover {
+  background-color: orange;
+}
+
+
+
+.cont{
+   float: right;
+  width: 800px;
+ 
+  padding: 100px;
+}
+
+.co{
+  overflow: auto;
+}
+
+.con{
+  float: left;
+  width: 450px;
+ 
+  padding: 100px;
+}

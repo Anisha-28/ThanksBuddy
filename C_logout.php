@@ -1,0 +1,12 @@
+<?php
+session_start();
+unset($_SESSION["fname"]);
+unset($_SESSION["lastname"]);
+unset($_SESSION["address"]);
+unset($_SESSION["adr"]);
+unset($_SESSION["city"]);
+unset($_SESSION["code"]);
+unset($_SESSION["state"]);
+unset($_SESSION["ctry"]);
+header("Location:login.php");
+?>
